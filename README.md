@@ -48,6 +48,13 @@ Although R² typically ranges between 0 and 1, it can be **negative** when the m
 - **Adding new independent variables can only decrease or maintain SSres** because we use **Ordinary Least Squares (OLS)**, which minimizes the sum of squared residuals.
 - **SStot (Total Sum of Squares) does not change** because it depends only on y-values, not the independent variables.
 
+### Why SSres Cannot Increase
+When you add a new independent variable to the model:
+1. OLS finds the best possible fit by adjusting the coefficients, meaning the new model must either fit as well as the previous one or improve the fit.
+2. If the new variable has no predictive power, OLS assigns it a coefficient close to zero, keeping SSres the same.
+3. If the new variable improves predictions, OLS finds better coefficients that reduce SSres.
+Since OLS always minimizes SSres, it can stay the same or decrease, but never increase when adding new variables.
+
 ### Adjusted R² (Improved R² Measure)
 Adding more variables **always** increases R², even if the new variable is irrelevant. To address this, we use **Adjusted R²**:
 
