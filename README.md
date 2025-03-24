@@ -12,7 +12,7 @@ There are multiple Machine Learning Regression models:
 5. Decision Tree Regression
 6. Random Forest Regression
 
-Evaluating fit of models with **R Squared**
+# Evaluating fit of models using **R Squared**
 ![image](https://github.com/user-attachments/assets/0e780256-2d4c-4ef8-9c57-290ab05c53ac)
 R² (R-squared) is a statistical measure that explains how well the independent variables in a regression model explain the variability of the dependent variable.
 
