@@ -1,5 +1,5 @@
 # Regression
-Machine Learning - Regressing Model Projects 
+Machine Learning - Regression Model Projects 
 
 Regression models (both linear and non-linear) are used for predicting a real value, like salary for example. 
 If the independent variable is time, then the model will be forecasting future values, otherwise the model will be predicting present but unknown values. 
