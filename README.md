@@ -75,3 +75,13 @@ Where:
 - **Higher R² means a better model fit**, but context matters.
 - **Adjusted R² is better for model evaluation**, especially when adding new variables.
 - **R² can be negative** if the model performs worse than just using the mean.
+
+# Regression Models Comparison
+![image](https://github.com/user-attachments/assets/147046d5-232b-4170-a662-fa0bb98e2383)
+
+# Hyperparameter Tuning 
+Each model consists of two types of parameters
+1. The parameters that are learnt (like the coefficients in Linear Regression)
+2. Hyperparameters
+
+Hyperparameters are the parameters that are not learnt and are fixed values that can be optimized so that the model can reach even higher performance. This is called **Parameter Tuning**. 
